@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawChart);
+          function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+              ['Pilot', 'Profit for Planet Express'],
+              
+                ['Fry', 35000],
+                  
+                ['Leela', 131295],
+                  
+                ['Amy', 15000],
+                  
+                ['Bender', 355600],
+                  
+              ]);
+
+
+            var options = {
+              title: 'Profit for Planet Express'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+            chart.draw(data, options);
+          }
+    </script>
+
+
+    <!-- Code from previous HTML assignment STARTS here     -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Stylesheets go here. -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <!-- Code from previous HTML assignment ENDS here     -->
+
+
+
+  </head>
+  <body>
+
+
+      <div>
+        <h5 class="lead bg-info center-block"> How much money did we make this week:</h5>
+        <h1 class="center-block"> $536895</h1>
+      </div>
+
+
+      <div class="container-fluid">
+        <table class="table table-striped">
+           <tr>
+             <th>Destination</th>
+             <th>Shipment</th>
+             <th>Crates</th>
+           </tr>
+
+        
+
+        <tr>
+          <td>
+             Earth
+          </td>
+
+          <td>
+            Hamburgers
+          </td>
+
+          <td>
+            150
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Moon
+          </td>
+
+          <td>
+            Tacos
+          </td>
+
+          <td>
+            33
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Earth
+          </td>
+
+          <td>
+            Movies
+          </td>
+
+          <td>
+            34
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Mars
+          </td>
+
+          <td>
+            BBQ Sauce
+          </td>
+
+          <td>
+            999
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Uranus
+          </td>
+
+          <td>
+            Whiskey
+          </td>
+
+          <td>
+            1000
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Jupiter
+          </td>
+
+          <td>
+            Books
+          </td>
+
+          <td>
+            10
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Pluto
+          </td>
+
+          <td>
+            Beer
+          </td>
+
+          <td>
+            100
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Uranus
+          </td>
+
+          <td>
+            Pizza
+          </td>
+
+          <td>
+            66
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Saturn
+          </td>
+
+          <td>
+            Pizza
+          </td>
+
+          <td>
+            26
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>
+             Mercury
+          </td>
+
+          <td>
+            Pizza
+          </td>
+
+          <td>
+            36
+          </td>
+        </tr>
+        
+      </table>
+      </div>
+        <!-- end of shipment table #2 -->
+
+      <div class="center-block" id="piechart" style="width: 900px; height: 500px;">
+      </div>
+
+
+
+      <div class="center-block">
+        <table class="table table-striped">
+          <tr>
+            <th>Pilot</th>
+            <th> Number of Trips:</th>
+            <th>Bonus:</th>
+          </tr>
+
+
+           
+
+            <tr>
+               <td>
+                 Fry
+               </td>
+
+               <td>
+                 2
+               </td>
+
+               <td>
+                 3500.0
+               </td>
+            </tr>
+            
+
+            <tr>
+               <td>
+                 Leela
+               </td>
+
+               <td>
+                 5
+               </td>
+
+               <td>
+                 13129.5
+               </td>
+            </tr>
+            
+
+            <tr>
+               <td>
+                 Amy
+               </td>
+
+               <td>
+                 1
+               </td>
+
+               <td>
+                 1500.0
+               </td>
+            </tr>
+            
+
+            <tr>
+               <td>
+                 Bender
+               </td>
+
+               <td>
+                 2
+               </td>
+
+               <td>
+                 35560.0
+               </td>
+            </tr>
+            
+         </table>
+      </div>
+     <!-- Top table Ends here -->
+
+
+     <div>
+      <h6> Explorer mode completed. Let's try Adventure mode. What do you think?</h6>
+      <img src="http://i.giphy.com/OvL3qHSMO6uaI.gif" class="img-rounded center-block">
+    </div>
+
+
+  </body>
+</html>
